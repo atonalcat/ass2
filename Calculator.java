@@ -100,7 +100,7 @@ public class Calculator
         System.out.println();
         System.out.println("SUM OF AN ARITHMETIC SERIES");
         System.out.println("The sum of the first " + terms + " terms of an arithmetic series that starts with " + a1);
-        System.out.println("and increases by " + d + " is " + arithmeticOMEGALUL(a1, d, terms) + ".");
+        System.out.println("and increases by " + d + " is " + arithmeticOMEGALUL(a1, d, terms));
         //Sum of Finite Geometric Series
         //starting value
         a1=3.0;
@@ -111,6 +111,6 @@ public class Calculator
         System.out.println();
         System.out.println("SUM OF A FINITE GEOMETRIC SERIES");
         System.out.println("The sum of the first " + terms + " terms of a finite geometric series that starts with " + a1);
-        System.out.println("and increases by a rate of " + commonratio + " is " + finitegeometricFeelsStrongMan(a1, commonratio, terms) + ".");
+        System.out.println("and increases by a rate of " + commonratio + " is " + finitegeometricFeelsStrongMan(a1, commonratio, terms));
     }
 }
